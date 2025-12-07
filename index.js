@@ -123,7 +123,7 @@ function numPointsScored(playerName) {
             return team.players[playerName].points;
         }
     }
-    return null; // Player not found
+
 }
 // return shoe size
 function shoeSize(playerName) {
@@ -134,7 +134,7 @@ function shoeSize(playerName) {
             return team.players[playerName].shoe;
         }
     }
-    return null; // Player not found                        
+                      
 }
 //takes team name and returns team colors
 function teamColors(teamName) {
@@ -145,7 +145,7 @@ function teamColors(teamName) {
             return team.colors;
         }
     }
-    return null; // Team not found
+
 }
 //returns array of team names
 function teamNames() {
